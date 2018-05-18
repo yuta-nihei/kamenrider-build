@@ -1,0 +1,253 @@
+.human {
+	position: relative;
+}
+
+.main-area {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	position: relative;
+	width: 640px;
+	margin: 0 auto;
+}
+
+.bottle_list {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+
+.belt-area {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	position: absolute;
+	height: 300px;
+	margin: 30px auto;
+	left: 120px;
+}
+
+.belt-bottle img {
+	width: 15px;
+}
+
+.belt-left {
+	position: absolute;
+	top: 175px;
+	right: -18px;
+	z-index: 1;
+}
+
+.belt-right {
+	position: absolute;
+	top: 175px;
+	right: -35px;
+	z-index: 2;
+}
+
+.sparkling-bottle {
+	position: absolute;
+	top: 150px;
+	right: -47px;
+	z-index: 1
+}
+
+.sparkling-bottle img {
+	width: 55px;
+}
+
+.hazard-trigger {
+	position: absolute;
+	top: 129px;
+	left: 80px
+}
+
+.hazard-trigger img {
+	width: 55px;
+}
+
+.belt-arm{
+	position: absolute
+}
+
+.belt-arm.\--isUp {
+	top: 80px;
+	left: 3px;
+}
+
+.belt-arm.\--isDown {
+	top: 197px;
+	left: 70px;
+}
+
+.belt-arm img {
+	width: 30px;
+}
+
+.rider-belt {
+	position: relative;
+	top: 163px;
+	left: 57px
+}
+
+.rider-belt img {
+	width: 136px;
+}
+
+
+.belt-front {
+	position: absolute;
+	z-index: 3;
+	top: 28px;
+	right: 15px
+}
+
+
+.belt-front img {
+	width: 47px;
+}
+
+
+.change {
+	position: absolute;
+	background: transparent;
+	border: none;
+	width: 54px;
+	top: 60%;
+	left: 42%;
+	height: 42px;
+}
+
+.rabbit {
+    -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: url(../img/rabbit_bottle.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+	background-position: center
+}
+
+.rabbit:checked {
+	background: url(../img/rabbit_bottle_on.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+.tank {
+    -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: url(../img/tank_bottle.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+	background-position: center
+}
+
+.tank:checked {
+	background: url(../img/tank_bottle_on.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+.gorilla {
+    -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: url(../img/gorilla_bottle.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+	background-position: center
+}
+
+.gorilla:checked {
+	background: url(../img/gorilla_bottle_on.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+.diamond {
+    -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: url(../img/diamond_bottle.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+	background-position: center
+}
+
+.diamond:checked {
+	background: url(../img/diamond_bottle_on.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+.sparkling {
+    -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: url(../img/sparkling_bottle.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+	background-position: center
+}
+
+.sparkling:checked {
+	background: url(../img/sparkling_bottle_on.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+.hazard {
+    -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: url(../img/hazard_trigger.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+	background-position: center
+}
+
+.hazard:checked {
+	background: url(../img/hazard_trigger_on.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}

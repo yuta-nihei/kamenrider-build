@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta http-equiv="Expires" content="-1">
+    <link rel="stylesheet" href="css/style.css">
+    <script
+    src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+
+
+    <title>KAMENRIDER SYSTEM</title>
+</head>
+<body>
+    <section class="main-area">
+        <!-- ボトルリスト -->
+        <div class="bottle_list">
+            <input type="checkbox" name="rabbit" class="rabbit">
+            <input type="checkbox" name="tank" class="tank">
+            <input type="checkbox" name="gorilla" class="gorilla">
+            <input type="checkbox" name="diamond" class="diamond">
+            <input type="checkbox" name="sparkling" class="sparkling">
+            <input type="checkbox" name="hazard" class="hazard">
+
+        </div>
+
+        <div class="human --isNomal" style="display: none;"><img src="img/build_nomal.png" alt=""></div>
+        <div class="human --isGorimon" style="display: none;"><img src="img/build_gorimon.png" alt=""></div>
+        <div class="human --isSparkling" style="display: none;"><img src="img/build_sparkling.png" alt=""></div>
+        <div class="human --isHazard" style="display: none;"><img src="img/hazard_rabbittank.png" alt=""></div>
+
+
+
+
+
+        <div class="belt-area">
+            <!-- ベルトのアーム -->
+            <div class="belt-arm --isDown"><img src="img/arm_down.png" alt=""></div>
+            <div class="belt-arm --isUp" style="display:none;"><img src="img/arm_up.png" alt=""></div>
+
+            <!-- ベルトのボトル -->
+            <div class="rabbit-bottle belt-left belt-bottle" style="display:none;"><img src="img/rabbit_bottle_belt.png" alt=""></div>
+            <div class="tank-bottle belt-right belt-bottle" style="display:none;"><img src="img/tank_bottle_belt.png" alt=""></div>
+            <div class="gorilla-bottle belt-left belt-bottle" style="display:none;"><img src="img/gorilla_bottle_belt.png" alt=""></div>
+            <div class="diamond-bottle belt-right belt-bottle" style="display:none;"><img src="img/diamond_bottle_belt.png" alt=""></div>
+            <div class="sparkling-bottle" style="display:none;"><img src="img/sparkling_bottle_belt.png" alt=""></div>
+            <div class="hazard-trigger" style="display:none;"><img src="img/hazard_trigger.png" alt=""></div>
+
+            <div class="rider-belt"><img src="img/belt.png" alt="">
+                <div class="belt-front"><img src="img/belt_front.png" alt=""></div>
+            </div>
+
+
+            <input type="button" value="" class="change">
+        </div>
+
+    </section>
+    
+
+
+
+
+    <audio id="rabbit" preload="auto">
+        <source src="audio/rabbit.mp3" type="audio/mp3">
+    </audio>
+    <audio id="tank" preload="auto">
+        <source src="audio/tank.mp3" type="audio/mp3">
+    </audio>
+    <audio id="gorilla" preload="auto">
+        <source src="audio/gorilla.mp3" type="audio/mp3">
+    </audio>
+    <audio id="diamond" preload="auto">
+        <source src="audio/diamond.mp3" type="audio/mp3">
+    </audio>
+    <audio id="sparkling" preload="auto">
+        <source src="audio/sparkling.mp3" type="audio/mp3">
+    </audio>
+    <audio id="hazard" preload="auto">
+        <source src="audio/hazard_on.mp3" type="audio/mp3">
+    </audio>
+    <audio id="bestmatch" preload="auto">
+        <source src="audio/bestmatch.mp3" type="audio/mp3">
+    </audio>
+    <audio id="superbestmatch" preload="auto">
+        <source src="audio/superbestmatch.mp3" type="audio/mp3">
+    </audio>
+    <audio id="hensin_taiki" preload="auto">
+        <source src="audio/hensin_taiki.mp3" type="audio/mp3">
+    </audio>
+    <audio id="rabitan_change" preload="auto">
+        <source src="audio/rabitan_change.mp3" type="audio/mp3">
+    </audio>
+    <audio id="gorillamond_change" preload="auto">
+        <source src="audio/gorillamond_change.mp3" type="audio/mp3">
+    </audio>
+    <audio id="sparkling_change" preload="auto">
+        <source src="audio/sparkling_change.mp3" type="audio/mp3">
+    </audio>
+    <audio id="rabbittank_hazard_change" preload="auto">
+        <source src="audio/rabbittank_hazard.mp3" type="audio/mp3">
+    </audio>
+    
+
+
+    
+</body>
+</html>
